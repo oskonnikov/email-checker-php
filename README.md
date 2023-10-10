@@ -1,6 +1,6 @@
 # Validate Email for PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tintnaingwin/email-checker-php.svg?style=flat-square)](https://packagist.org/packages/tintnaingwin/email-checker-php)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/oskonnikov/email-checker-php.svg?style=flat-square)](https://packagist.org/packages/oskonnikov/email-checker-php)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
 **Notice** -  That extracts the MX records from the email address and connect with the mail server to make sure the mail address accurately exist. So it may be slow loading time in local and some co-operate MX records take a long time.
@@ -10,13 +10,13 @@
 You can install the package via composer:
 
 ```bash
-composer require tintnaingwin/email-checker-php
+composer require oskonnikov/email-checker-php
 ```
 
 ## Usage
 
 ``` php
-$email_checker = new Tintnaingwin\EmailCheckerPHP\EmailChecker();
+$email_checker = new Oskonnikov\EmailCheckerPHP\EmailChecker();
 echo $email_checker->check('amigo.k8@gmail.com');
 ```
 

@@ -1,6 +1,6 @@
 <?php
 
-use Tintnaingwin\EmailCheckerPHP\EmailChecker;
+use Oskonnikov\EmailCheckerPHP\EmailChecker;
 use PHPUnit\Framework\TestCase;
 
 class EmailCheckerTest extends TestCase

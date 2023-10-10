@@ -1,6 +1,6 @@
 <?php
 
-namespace Tintnaingwin\EmailCheckerPHP;
+namespace Oskonnikov\EmailCheckerPHP;
 
 class EmailChecker implements EmailCheckerInterface
 {

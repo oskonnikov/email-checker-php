@@ -1,5 +1,5 @@
 {
-    "name": "tintnaingwin/email-checker-php",
+    "name": "oskonnikov/email-checker-php",
     "description": "PHP Package To Validate If An Email Address Exists Without Sending An Email",
     "keywords": [
         "php",
@@ -10,25 +10,25 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Tint Naing Win",
-            "email": "amigo.k8@gmail.com"
+            "name": "Oleg S.",
+            "email": "devopwr@gmail.com"
         }
     ],
     "require": {
-        "php": "^5.5|^7.1.3",
+        "php": "^7.0|^8.0|^8.1",
         "ext-json": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.2"
+        "phpunit/phpunit": "^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
-            "Tintnaingwin\\EmailCheckerPHP\\" : "src/"
+            "Oskonnikov\\EmailCheckerPHP\\" : "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tintnaingwin\\EmailCheckerPHP\\Tests\\": "tests"
+            "Oskonnikov\\EmailCheckerPHP\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
